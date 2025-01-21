@@ -1,0 +1,123 @@
+```css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: #666;
+}
+
+main {
+  margin-top: 60px;
+}
+
+.featured-cartoons {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.featured-cartoons h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.featured-cartoons ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featured-cartoons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.featured-cartoons a {
+  display: block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.featured-cartoons a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-cartoons a h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.latest-news {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.latest-news h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.latest-news ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.latest-news li {
+  margin-bottom: 10px;
+}
+
+.latest-news a {
+  display: block;
+  text-decoration: none;
+}
+
+.latest-news a h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.latest-news a p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+```

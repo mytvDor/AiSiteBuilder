@@ -1,0 +1,88 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .vscode-editor {
+    padding: 20px;
+  }
+  
+  .editor-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .editor-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .code-editor {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .output {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    min-height: 400px;
+    text-align: left;
+    text:black;
+  }
+  
+  .ui-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ui-button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .ui-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .ui-tabs-list {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .ui-tab-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .ui-tab-button.active {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .ui-tab-content {
+    padding: 20px 0;
+  }
+  
+  
