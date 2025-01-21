@@ -582,7 +582,7 @@ export default function CodeEditor() {
           </Tabs>
         </div>
         <div className="border rounded p-4 bg-gray-100">
-          <h3 className="text-lg font-semibold mb-2">Output:</h3>
+          <h3 className="text-lg font-semibold mb-2 text-black">Output:</h3>
           <div dangerouslySetInnerHTML={{ __html: output }} />
         </div>
       </div>

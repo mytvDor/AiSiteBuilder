@@ -1,71 +1,91 @@
-```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cartoon Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mango</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Cartoon Website</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Cartoons</a>
-      <a href="#">Games</a>
-      <a href="#">About Us</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+    <div class="hero-section">
+      <img src="images/hero-image.jpg" alt="Mango fruit on a tree">
+      <h1>Mango</h1>
+      <h2>The King of Fruits</h2>
+    </div>
   </header>
   <main>
-    <section class="featured-cartoons">
-      <h2>Featured Cartoons</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <img src="images/cartoon1.jpg" alt="Cartoon 1">
-            <h3>Cartoon 1</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="images/cartoon2.jpg" alt="Cartoon 2">
-            <h3>Cartoon 2</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="images/cartoon3.jpg" alt="Cartoon 3">
-            <h3>Cartoon 3</h3>
-          </a>
-        </li>
-      </ul>
+    <section id="about">
+      <h2>About Mango</h2>
+      <p>Mangoes are a delicious and nutritious fruit that is native to South Asia. They are a good source of vitamins A, C, and E, as well as minerals such as potassium and magnesium. Mangoes can be eaten fresh, dried, or juiced, and they are used in a variety of dishes around the world.</p>
     </section>
-    <section class="latest-news">
-      <h2>Latest News</h2>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>New Cartoon Announced</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lacus eget nunc tincidunt laoreet.</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <h3>Cartoon Character Gets New Voice Actor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lacus eget nunc tincidunt laoreet.</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <h3>New Cartoon Movie Coming Soon</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lacus eget nunc tincidunt laoreet.</p>
-          </a>
-        </li>
-      </ul>
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="product-cards">
+        <div class="product-card">
+          <img src="images/product-1.jpg" alt="A basket of mangoes">
+          <h3>Fresh Mangoes</h3>
+          <p>Our fresh mangoes are grown in the tropical sun and harvested at the peak of ripeness. They are a sweet and juicy treat that is perfect for eating on its own or using in recipes.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/product-2.jpg" alt="A glass of mango juice">
+          <h3>Mango Juice</h3>
+          <p>Our mango juice is made from 100% pure mango puree. It is a refreshing and healthy way to enjoy the taste of mangoes. Our mango juice is also a good source of vitamins A, C, and E.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/product-3.jpg" alt="A bag of dried mangoes">
+          <h3>Dried Mangoes</h3>
+          <p>Our dried mangoes are made from fresh mangoes that have been dried naturally in the sun. They are a chewy and sweet snack that is perfect for on-the-go.</p>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <img src="images/service-1.jpg" alt="A group of people eating mangoes">
+          <h3>Mango Parties</h3>
+          <p>We offer mango parties for any occasion. Our parties include fresh mangoes, mango juice, and dried mangoes, as well as a variety of other tropical fruits and treats.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/service-2.jpg" alt="A person holding a mango smoothie">
+          <h3>Mango Smoothies</h3>
+          <p>Our mango smoothies are made with fresh mangoes, yogurt, and honey. They are a delicious and healthy way to start your day or cool off on a hot summer day.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/service-3.jpg" alt="A person cooking with mangoes">
+          <h3>Mango Cooking Classes</h3>
+          <p>We offer mango cooking classes for all levels of cooks. Our classes teach you how to cook a variety of delicious mango dishes, from simple snacks to elaborate desserts.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit" value="Send">Send</button>
+      </form>
     </section>
   </main>
   <footer>
-    <p>Copyright &copy; 2023 Cartoon Website</p>
+    <p>Copyright &copy; 2023 Mango</p>
+    <ul>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
   </footer>
 </body>
 </html>
-```

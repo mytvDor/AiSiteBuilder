@@ -115,7 +115,7 @@ function VSCodeEditor() {
           </Tabs>
         </div>
         <div className="output">
-          <h3>Output:</h3>
+          <h3 style={{color:"black"}} >Output:</h3>
           <div dangerouslySetInnerHTML={{ __html: output }} />
         </div>
       </div>
